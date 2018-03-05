@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-qiyu",
+  "version": "0.0.0",
+  "description": "A cordova plugin, a JS version of QiYu SDK",
+  "cordova": {
+    "id": "cordova-plugin-qiyu",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaopanghhh/cordova-plugin-qiyu.git"
+  },
+  "keywords": [
+    "cordova",
+    "qiyu",
+    "share",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+        "<2.0.0": {
+          "cordova": ">=3.5.0"
+        },
+        "2.0.0": {
+          "cordova": ">=6.1.0",
+          "cordova-android": ">=6.1.0",
+          "cordova-ios": ">=4.3.1"
+        }
+    }
+  },
+  "author": "XiaoPang <xiaopanghhh@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xiaopanghhh/cordova-plugin-qiyu/issues"
+  },
+  "homepage": "https://github.com/xiaopanghhh/cordova-plugin-qiyu#readme"
+}
