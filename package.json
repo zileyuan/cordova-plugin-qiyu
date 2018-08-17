@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xiaopanghhh/cordova-plugin-qiyu.git"
+    "url": "git+https://github.com/zileyuan/cordova-plugin-qiyu.git"
   },
   "keywords": [
     "cordova",
@@ -33,10 +33,10 @@
         }
     }
   },
-  "author": "XiaoPang <xiaopanghhh@gmail.com>",
+  "author": "Zach <zileyuan@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xiaopanghhh/cordova-plugin-qiyu/issues"
+    "url": "https://github.com/zileyuan/cordova-plugin-qiyu/issues"
   },
-  "homepage": "https://github.com/xiaopanghhh/cordova-plugin-qiyu#readme"
+  "homepage": "https://github.com/zileyuan/cordova-plugin-qiyu#readme"
 }

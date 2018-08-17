@@ -20,16 +20,49 @@
         <header-file src="src/ios/Qiyu.h" />
         <source-file src="src/ios/Qiyu.m" />
 
+        <header-file src="src/ios/QYCommodityInfo.h" />
+        <header-file src="src/ios/QYConversationManager.h" />
+        <header-file src="src/ios/QYCustomActionConfig.h" />
+        <header-file src="src/ios/QYCustomUIConfig.h" />
+        <header-file src="src/ios/QYHeaders.h" />
+        <header-file src="src/ios/QYMessageInfo.h" />
+        <header-file src="src/ios/QYPushMessage.h" />
+        <header-file src="src/ios/QYSDK.h" />
+        <header-file src="src/ios/QYSessionInfo.h" />
+        <header-file src="src/ios/QYSessionViewController.h" />
+        <header-file src="src/ios/QYSource.h" />
+        <header-file src="src/ios/QYUserInfo.h" />
+        <header-file src="src/ios/POP/QYPOPConversationManager.h" />
+        <header-file src="src/ios/POP/QYPOPCustomUIConfig.h" />
+        <header-file src="src/ios/POP/QYPOPMessageInfo.h" />
+        <header-file src="src/ios/POP/QYPOPSDK.h" />
+        <header-file src="src/ios/POP/QYPOPSessionInfo.h" />
+        <header-file src="src/ios/POP/QYPOPSessionViewController.h" />
+
+        <source-file src="src/ios/lib/libcrypto.a" framework="true" />
+        <source-file src="src/ios/lib/libevent.a" framework="true" />
+        <source-file src="src/ios/lib/libQYSDK.a" framework="true" />
+
+        <framework src="CoreText.framework" weak="true" />
+        <framework src="MobileCoreService.framework" weak="true" />
+        <framework src="CoreTelephony.framework" weak="true" />
+        <framework src="CoreMedia.framework" weak="true" />
+        <framework src="AudioToolbox.framework" weak="true" />
+        <framework src="AssetsLibrary.framework" weak="true" />
+        <framework src="libstdc++.6.0.9.tbd" weak="true" />
+        <framework src="libsqlite3.0.tbd" weak="true" />
+        <framework src="libxml2.tbd" weak="true" />
+
         <config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-            <string>请允许黔赞访问您的相册</string>
+            <string>请允许应用访问您的相册</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-            <string>请允许黔赞使用您手机的摄像头</string>
+            <string>请允许应用使用您手机的摄像头</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-            <string>请允许黔赞使用您手机的麦克风</string>
+            <string>请允许应用使用您手机的麦克风</string>
         </config-file>
     </platform>
 

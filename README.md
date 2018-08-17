@@ -1,11 +1,11 @@
-# wjzp-cordova-qiyu
+# zileyuan-cordova-qiyu
 
-A cordova plugin, a JS version of Qiyu SDK
+A cordova plugin, a JS version of Qiyu SDK(v3.11.6)
 
 
 # Install
 
-1. ```cordova plugin add https://github.com/wjzpGZ/cordova-plugin-qiyu --variable QIYU_APP_KEY=YOUR_QIYU_APPID```, or using [plugman](https://npmjs.org/package/plugman), [phonegap](https://npmjs.org/package/phonegap), [ionic](http://ionicframework.com/)
+1. ```cordova plugin add https://github.com/zileyuan/cordova-plugin-qiyu --variable QIYU_APP_KEY=YOUR_QIYU_APPID```, or using [plugman](https://npmjs.org/package/plugman), [phonegap](https://npmjs.org/package/phonegap), [ionic](http://ionicframework.com/)
 2. ```cordova build ios``` or ```cordova build android```
 
 
