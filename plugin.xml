@@ -44,7 +44,7 @@
         <source-file src="src/ios/lib/libQYSDK.a" framework="true" />
 
         <framework src="CoreText.framework" weak="true" />
-        <framework src="MobileCoreService.framework" weak="true" />
+        <framework src="MobileCoreServices.framework" weak="true" />
         <framework src="CoreTelephony.framework" weak="true" />
         <framework src="CoreMedia.framework" weak="true" />
         <framework src="AudioToolbox.framework" weak="true" />
