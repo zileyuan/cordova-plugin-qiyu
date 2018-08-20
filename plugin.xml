@@ -43,6 +43,8 @@
         <source-file src="src/ios/lib/libevent.a" framework="true" />
         <source-file src="src/ios/lib/libQYSDK.a" framework="true" />
 
+        <resource-file src="src/ios/lib/QYResource.bundle" />
+
         <framework src="CoreText.framework" weak="true" />
         <framework src="MobileCoreServices.framework" weak="true" />
         <framework src="CoreTelephony.framework" weak="true" />

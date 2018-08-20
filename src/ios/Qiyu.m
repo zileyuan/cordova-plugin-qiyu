@@ -114,7 +114,7 @@
         }
         
         NSString *appKey = [[self.commandDelegate settings] objectForKey:@"qiyu_app_key"];
-        [[QYSDK sharedSDK] registerAppId:appKey appName:@"黔赞"];
+        [[QYSDK sharedSDK] registerAppId:appKey appName:@"精灵投资"];
         
         QYSessionViewController *sessionViewController = [[QYSDK sharedSDK] sessionViewController];
         sessionViewController.sessionTitle = [argument objectForKey:@"title"];
